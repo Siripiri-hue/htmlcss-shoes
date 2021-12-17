@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+    font-family: 'Architects Daughter', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shoes-content {
+    height: 100vh;
+    width: 100%;
+}
+
+#one {
+    background-color: red;
+}
+
+#two {
+    background-color: green;
+}
+
+#three {
+    background-color: yellow;
+}
+
+/* debug */
