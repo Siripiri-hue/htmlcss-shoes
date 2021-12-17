@@ -7,21 +7,12 @@
     box-sizing: border-box;
 }
 
-.shoes-content {
+.shoe-block {
+    border: 2px solid black;
     height: 100vh;
     width: 100%;
 }
 
-#one {
-    background-color: red;
+.shoe-content {
+    border: 2px solid red;
 }
-
-#two {
-    background-color: green;
-}
-
-#three {
-    background-color: yellow;
-}
-
-/* debug */
