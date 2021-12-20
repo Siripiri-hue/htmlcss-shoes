@@ -5,6 +5,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* barra di navigazione */
+header nav > ol {
+    position: fixed;
+    top: 0;
+    right: 0;
+    list-style: none;
+    z-index: 5;
+    padding: 50px;
+}
+
+header nav > ol > li {
+    display: inline-block;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border-radius: 100%;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+header nav > ol li a {
+    text-decoration: none;
+    color:currentColor;
 }
 
 /* blocco viewport */
