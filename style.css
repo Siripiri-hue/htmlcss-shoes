@@ -7,12 +7,67 @@
     box-sizing: border-box;
 }
 
+/* blocco viewport */
 .shoe-block {
-    border: 2px solid black;
     height: 100vh;
+    position: relative;
+}
+
+/* blocco contenuti */
+.shoe-content {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+/* dimensione delle immagini all'interno del blocco */
+div.shoe-block > div.shoe-content img { 
+    margin: 0 auto;
     width: 100%;
 }
 
-.shoe-content {
-    border: 2px solid red;
+div.shoe-block > .shoe-content h1 { /* slogan */
+    text-align: center;
+    font-size: calc(5vh + 25px);
+    text-transform: uppercase;
+}
+
+/* "funzione" centrante */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* colore sfondi */
+#best-shoe {
+    background-color: red;
+    color: yellow;
+}
+#chic-shoe {
+    background-color: green;
+    color: red;
+}
+#sporty-shoe {
+    background-color: yellow;
+    color: green;
+}
+
+/* debug */ 
+.debug div.shoe-block {
+    border: 2px solid blue;
+}
+
+.debug div.shoe-block > div.shoe-content {
+    border: 2px solid black;
+}
+
+.debug div.shoe-block > div.shoe-content h1 {
+    border: 1px solid blueviolet;
+}
+
+.debug div.shoe-block > div.shoe-content img {
+    border: 1px solid orange;
 }
